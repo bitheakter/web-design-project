@@ -38,6 +38,7 @@ body{
     border: none;
     background-color: transparent;
 font-weight: bold;
+cursor: pointer;
 
 }
 .hero-img img{
@@ -86,6 +87,7 @@ outline: none;
 .btn-2{
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 .news-text h2{
 font-weight: bold;
@@ -213,11 +215,12 @@ background-color: #F9F3F5;
 border: none;
  padding: 15px 20px;
  margin-bottom:10px ;
+ cursor: pointer;
 }
 .contact{
     display: flex;
     align-items: center;
-    background-color: #F9F3F5;
+    
     margin-top: 60px;
    
 }
@@ -238,7 +241,9 @@ border: none;
 }
 .contact-text{
 width: 70%;
-margin-left: 30px;
+
+background-color: #F9F3F5;
+padding: 40px 20px ;
 }
 .mail-icon{
     display: flex;
@@ -272,6 +277,7 @@ padding: 5px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 border-radius: 4px;
 border: none;
+padding:5px;
 }
 .contact-submit-btn button{
 background-color:#FF4C60 ;
@@ -307,4 +313,5 @@ padding: 30px;
 }
 .bithe{
       font-weight: bolder;
+      text-decoration: none;
 }
